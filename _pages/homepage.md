@@ -29,6 +29,7 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 * [TODAES](){: .btn .btn--primary} Chengning Wang, Dan Feng, Wei Tong, Jingning Liu, Zheng Li, Jiayi Chang, Yang Zhang, Bing Wu, Jie Xu, **Wei Zhao**, Yilin Li, Ruoxi Ren, "Cross-point resistive memory: Nonideal properties and solutions", ACM Transactions on Design Automation of Electronic Systems (**TODAES**), 2019.(CCF B)
 
 # Talks
+
 | 02/2021 | "Improving the energy efficiency of STT-MRAM based approximate cache", oral presentation in 24th Design, Automation and Test in Europe Conference (DATE 2021). | Virtual event |
 | ------- | :----------------------------------------------------------- | ------------- |
 | 10/2020 | "OSwrite: Improving the lifetime of MLC STT-RAM with One-Step write", oral presentation in 36th International Conference on Massive Storage Systems and Technology (MSST 2020). | Virtual event |
