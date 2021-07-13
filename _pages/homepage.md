@@ -12,11 +12,14 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 
 # Publications
 ## 2021
-* [DATE](){: .btn .btn--primary} **Wei Zhao**, Wei Tong, Dan Feng, Jingning Liu, Zhangyu Chen, Jie Xu, Bing Wu, Chengning Wang and Bo Liu, "Improving the energy efficiency of STT-MRAM based approximate cache", Design, Automation and Test in Europe Conference  (**DATE**), 2021. (CCF B) [PDF](./paper/date21.pdf){: .btn .btn--info} [Slides](./slides/DATE2021.pdf){: .btn .btn--success} [Video](./video/presentation.mp4){: .btn .btn--warning}
+
+- [ICCAD](){: .btn .btn--primary} **Wei Zhao**, Dan Feng, Yu Hua, Wei Tong, Jingning Liu, Jie Xu, Chunyan Li, Gaoxiang Xu and Yiran Chen, "MORE<sup>2</sup>: Morphable Encryption and Encoding for Secure NVM" is accepted by 40th International Conference On Computer Aided Design, 2021.
+
+* [DATE](){: .btn .btn--primary} **Wei Zhao**, Wei Tong, Dan Feng, Jingning Liu, Zhangyu Chen, Jie Xu, Bing Wu, Chengning Wang and Bo Liu, "Improving the energy efficiency of STT-MRAM based approximate cache", in proceedings of 24th Design, Automation and Test in Europe Conference  (**DATE**), 2021. (CCF B) [PDF](./paper/date21.pdf){: .btn .btn--info} [Slides](./slides/DATE2021.pdf){: .btn .btn--success} [Video](./video/presentation.mp4){: .btn .btn--warning}
 
 ## 2020
 
-* [MSST](){: .btn .btn--primary} **Wei Zhao**, Wei Tong, Dan Feng, Jingning Liu, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Bo Liu, "OSwrite: Improving the lifetime of MLC STT-RAM with One-Step write", 36th International Conference on Massive Storage Systems and Technology (**MSST**), 2020.(CCF B) [PDF](./paper/MSST_13.pdf){: .btn .btn--info} [Slides](./slides/OSwrite.pdf){: .btn .btn--success}
+* [MSST](){: .btn .btn--primary} **Wei Zhao**, Wei Tong, Dan Feng, Jingning Liu, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Bo Liu, "OSwrite: Improving the lifetime of MLC STT-RAM with One-Step write", in proceedings of 36th International Conference on Massive Storage Systems and Technology (**MSST**), 2020.(CCF B) [PDF](./paper/MSST_13.pdf){: .btn .btn--info} [Slides](./slides/OSwrite.pdf){: .btn .btn--success}
 * [TCAD](){: .btn .btn--primary} Chengning Wang, Dan Feng, Wei Tong, Yu Hua, Jingning Liu, Bing Wu, **Wei Zhao**, Linghao Song, Yang Zhang, Jie Xu, Xueliang Wei, Yiran Chen, "Improving Multilevel Writes on Vertical 3D Cross-Point Resistive Memory", accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2020.
 (CCF A, JCR Q2)
 * [TC](){: .btn .btn--primary} Chengning Wang, Dan Feng, Wei Tong, Jingning Liu, Bing Wu, **Wei Zhao**, Yang Zhang, Yiran Chen, "Improving Write Performance on Cross-Point RRAM Arrays by Leveraging Multidimensional Non-Uniformity of Cell Effective Voltage", accepted by Transactions on Computers (**TC**), 2020.(CCF A, JCR Q1)
