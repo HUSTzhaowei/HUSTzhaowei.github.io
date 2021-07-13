@@ -13,9 +13,9 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 # Publications
 ## 2021
 
-- [ICCAD](){: .btn .btn--primary} **Wei Zhao**, Dan Feng, Yu Hua, Wei Tong, Jingning Liu, Jie Xu, Chunyan Li, Gaoxiang Xu and Yiran Chen, "MORE<sup>2</sup>: Morphable Encryption and Encoding for Secure NVM" is accepted by 40th International Conference On Computer Aided Design, 2021.
+- [ICCAD](){: .btn .btn--primary} **Wei Zhao**, Dan Feng, Yu Hua, Wei Tong, Jingning Liu, Jie Xu, Chunyan Li, Gaoxiang Xu and Yiran Chen, "MORE<sup>2</sup>: Morphable Encryption and Encoding for Secure NVM" is accepted by 40th International Conference On Computer Aided Design (**ICCAD**), 2021. (Acceptance Rate: 121/514 = 23.5%)
 
-* [DATE](){: .btn .btn--primary} **Wei Zhao**, Wei Tong, Dan Feng, Jingning Liu, Zhangyu Chen, Jie Xu, Bing Wu, Chengning Wang and Bo Liu, "Improving the energy efficiency of STT-MRAM based approximate cache", in proceedings of 24th Design, Automation and Test in Europe Conference  (**DATE**), 2021. (CCF B) [PDF](./paper/date21.pdf){: .btn .btn--info} [Slides](./slides/DATE2021.pdf){: .btn .btn--success} [Video](./video/presentation.mp4){: .btn .btn--warning}
+* [DATE](){: .btn .btn--primary} **Wei Zhao**, Wei Tong, Dan Feng, Jingning Liu, Zhangyu Chen, Jie Xu, Bing Wu, Chengning Wang and Bo Liu, "Improving the energy efficiency of STT-MRAM based approximate cache", in proceedings of 24th Design, Automation and Test in Europe Conference  (**DATE**), 2021. (CCF B) [PDF](./paper/date21.pdf){: .btn .btn--info} [Slides](./slides/DATE2021.pdf){: .btn .btn--success} [Video](./video/presentation.mp4){: .btn .btn--warning} (Acceptance Rate: 24%)
 
 ## 2020
 
