@@ -1,0 +1,7 @@
+main:
+  - title: "Homepage"
+    url: /
+  - title: "Project"
+    url: /categories/
+  - title: "Blog"
+    url: /tags/
