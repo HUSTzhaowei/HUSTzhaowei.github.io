@@ -11,6 +11,10 @@ author_profile: ture
 Wei Zhao received the BE degree of electronic science and technology in 2018, from Huazhong University of Science and Technology (HUST). Now, he is a Ph.D student in [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage.
 
 # Publications
+
+## 2022
+
+- [TCAD](){: .btn .btn--primary} **Wei Zhao**, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Wei Tong, Dan Feng, Jingning Liu, "A Low Latency and High Endurance MLC STT-MRAM based Cache System" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2022. (CCF A) [PDF](){: .btn .btn--info} 
 ## 2021
 
 - [ICCAD](){: .btn .btn--primary} **Wei Zhao**, Dan Feng, Yu Hua, Wei Tong, Jingning Liu, Jie Xu, Chunyan Li, Gaoxiang Xu and Yiran Chen, "MORE<sup>2</sup>: Morphable Encryption and Encoding for Secure NVM" is accepted by 40th International Conference On Computer Aided Design (**ICCAD**), 2021. [PDF](https://drive.google.com/file/d/1Bx3JlnTO10ODeRCRJWuMutjfJYm8OEeO/view?usp=sharing){: .btn .btn--info} [Slides](https://drive.google.com/file/d/1QXSB2VrwoNdet4yN6rv9GiqM0MymGt4y/view?usp=sharing){: .btn .btn--success} [Video](https://drive.google.com/file/d/1nzlyH18eUQmKrnpU14GkL6AuvaiLsJhd/view?usp=sharing){: .btn .btn--warning}(Acceptance Rate: 121/514 = 23.5%)
