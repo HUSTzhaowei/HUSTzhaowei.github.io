@@ -1,0 +1,120 @@
+define(function(require, exports, module) {
+    var tpl = require('text!modules/qjsq/detail/xsqjsqxq.html');
+    var api = require('api');
+
+    return function() {
+        var page = {
+            template: tpl,
+            data: function() {
+                return {
+                    //申请详情表单
+                    model: WIS_EMAP_SERV.getModel("/modules/qjsq.do", "yddxsqjxqbd", "form"),
+                    formValue: {},
+                    customVm: {},
+                    readonly: true,
+                    //申请详情数据当前状态
+                    applyDetailShzt: "",
+                    //申请详情数据申请时间
+                    applyDetailSqsj: "",
+                    //申请详情数据退回状态
+                    applyDetailThzt: "",
+                    //是否可撤回
+                    applyDetailSfkch: false,
+                    //申请详情流程arr
+                    applyProcessDatas: [],
+                    //是否是被退回的记录，被退回的记录支持重新提交
+                    isBackReord: false,
+                    //是否已经销假
+                    detailXJZT: false,
+                    //是否开启定位销假
+                    sfkqdwxj: this.getSfkqdwxj(),
+                    //是否可销假
+                    sfkxj: false
+                };
+            },
+            created: function() {
+                SDK.setTitleText("请假");
+                //获取请假信息明细
+                this.getStudentLeaveRecordDetails(this.$route.query.SQBH);
+
+            },
+            watch:{
+            	'formValue.QJFS':function(e){
+            		var self = this;
+            		if(e == '2'){
+            			self.$refs.form.showItem('QJJC');
+            		}else{
+            			self.$refs.form.hideItem('QJJC');
+            		}
+            	}
+            },
+            methods: {
+                //获取请假详情
+                getStudentLeaveRecordDetails: function(sqbh) {
+                    var self = this;
+                    MOB_UTIL.doPost({ url: api.getStudentLeaveRecordDetails, params: { SQBH: sqbh } }).done(function(result) {
+                        self.formValue = result.data.leaveInfo;
+                        self.applyDetailShzt = result.data.leaveInfo.SHZT;
+                        self.applyProcessDatas = result.data.auditInfo;
+                        self.applyDetailSqsj = result.data.leaveInfo.SQRQ;
+                        self.applyDetailThzt = result.data.leaveInfo.THZT;
+                        self.applyDetailSfkch = result.data.SFKCH;
+                        self.isBackReord = result.data.leaveInfo.SHZT == '0';
+                        self.detailXJZT = result.data.leaveInfo.XJZT == '1';
+                        self.sfkxj = (result.data.leaveInfo.XJZT == '0'&&result.data.leaveInfo.SHZT == '99');
+                    });
+                },
+                //重新提交
+                editApply: function() {
+                    //学生请假校验
+                    var self = this;
+                    MOB_UTIL.doPost({ url: api.checkWhetherStudentCanApply, params: {} }).done(function(result) {
+                        if (result.data.applicable) {
+                            var param = {
+                                IS_NEW: false,
+                                //表单数据
+                                EDIT_DATA: self.formValue
+                            };
+                            self.$router.push({ name: 'xzqjsq', query: param });
+                        } else {
+                            mintUI.MessageBox('提示', result.data.reason);
+                        }
+                    });
+                },
+                //撤回申请
+                recall: function() {
+                    var self = this;
+                    mintUI.MessageBox.confirm('确定要撤回申请吗?', '提示').then(function() {
+                        MOB_UTIL.doPost({ url: api.recallApplyInfo, params: { SQBH: self.$route.query.SQBH } }).done(function(result) {
+                            mintUI.Toast({
+                                message: '撤回成功',
+                                iconClass: 'iconfont mint-icon-i icon-chenggong'
+                            });
+                            self.$router.go(-1);
+                        });
+                    }, function() {});
+                },
+                //是否开启定位销假
+                getSfkqdwxj: function(){
+                	var self = this;
+                	 MOB_UTIL.doPost({ url: api.checkDWXJSwitch, params: {} }).done(function(result) {
+                		 if(result.data.KQDWXJ==1){
+                			 self.sfkqdwxj = true;
+                		 }else{
+                			 self.sfkqdwxj = false;
+                		 }
+                	 });
+                	 return false;
+                },
+                //定位销假
+                clearApply: function(){
+                	var self = this;
+                	param = {sqbh: self.$route.query.SQBH, qjksrq: self.formValue.QJKSRQ};
+                	self.$router.push({name: 'xsdwxj', query: param});
+                }
+            }
+        };
+        return page;
+    };
+
+});
