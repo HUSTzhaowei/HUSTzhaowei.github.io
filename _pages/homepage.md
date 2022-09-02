@@ -8,12 +8,12 @@ author_profile: ture
 
 # Biography
 
-Wei Zhao received the BE degree of electronic science and technology in 2018, from Huazhong University of Science and Technology (HUST). Now, he is a Ph.D student in [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage. My CV is [here](../cv.pdf).
+Wei Zhao received the BE degree of electronic science and technology in 2018, from Huazhong University of Science and Technology (HUST). Now, he is a Ph.D student in [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage. My CV is [here] (../cv_en.pdf).
 
 # Publications
 
 ## 2022
-- [ICCD](){: .btn .btn--primary} Denghui Wu, Biyong Liu, **Wei Zhao**, Wei Tong, "ZNSKV: Reducing Data Migration in LSMT-Based KV Stores on ZNS SSDs" is accepted by T40th IEEE International Conference on Computer Design (**ICCD**), 2022. (CCF B) 
+- [ICCD](){: .btn .btn--primary} Denghui Wu, Biyong Liu, **Wei Zhao**, Wei Tong, "ZNSKV: Reducing Data Migration in LSMT-Based KV Stores on ZNS SSDs" is accepted by 40th IEEE International Conference on Computer Design (**ICCD**), 2022. (CCF B) 
   
 - [TCAD](){: .btn .btn--primary} **Wei Zhao**, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Wei Tong, Dan Feng, Jingning Liu, "A Low Latency and High Endurance MLC STT-MRAM based Cache System" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2022. (CCF A) [PDF](){: .btn .btn--info} 
 
