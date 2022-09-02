@@ -13,7 +13,8 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 # Publications
 
 ## 2022
-
+- [ICCD](){: .btn .btn--primary} Denghui Wu, Biyong Liu, **Wei Zhao**, Wei Tong, "ZNSKV: Reducing Data Migration in LSMT-Based KV Stores on ZNS SSDs" is accepted by T40th IEEE International Conference on Computer Design (**ICCD**), 2022. (CCF B) 
+  
 - [TCAD](){: .btn .btn--primary} **Wei Zhao**, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Wei Tong, Dan Feng, Jingning Liu, "A Low Latency and High Endurance MLC STT-MRAM based Cache System" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2022. (CCF A) [PDF](){: .btn .btn--info} 
 
 ## 2021
