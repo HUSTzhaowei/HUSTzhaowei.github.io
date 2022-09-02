@@ -8,7 +8,7 @@ author_profile: ture
 
 # Biography
 
-Wei Zhao received the BE degree of electronic science and technology in 2018, from Huazhong University of Science and Technology (HUST). Now, he is a Ph.D student in [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage. My CV is [here] (../cv_en.pdf).
+Wei Zhao received the BE degree of electronic science and technology in 2018, from Huazhong University of Science and Technology (HUST). Now, he is a Ph.D student in [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage. My CV is [here](../cv_en.pdf).
 
 # Publications
 
