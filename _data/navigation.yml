@@ -2,7 +2,7 @@ main:
   - title: "Homepage"
     url: /
   - title: "CV"
-    url: /cv.pdf
+    url: /cv_en.pdf
   - title: "Project"
     url: /categories/
   - title: "Blog"
