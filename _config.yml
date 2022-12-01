@@ -73,8 +73,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HUSTzhaowei"
-    - label: "googlescholar"
-      icon: "fab fa-fw fa-google-scholar"
+    - label: "GoogleScholar"
+      icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=fwaVuhEAAAAJ&hl"
    
 footer:
