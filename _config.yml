@@ -64,7 +64,8 @@ author:
   avatar : "/assets/images/me.jpg"
   bio    : "Hi, I'm Wei Zhao, a Ph.D student in Huazhong University of Science and Technology (HUST), Wuhan, China. Email: weiz@hust.edu.cn"
   email  : "weiz@hust.edu.cn"
-  Somewhere: "Wuhan, China"
+  location: "Wuhan, China"
+  googlescholar: "https://scholar.google.com/citations?user=fwaVuhEAAAAJ&hl"
   links:
           #- label: "Zhihu"
           #icon: "fab fa-fw fa-zhihu"
