@@ -12,6 +12,14 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 
 # Publications
 
+## In Submission
+- **Wei Zhao** et al, "CMD: A Cache-assisted GPU Memory Deduplication Architecture", which is submitted to 60th Design Automation Conference (DAC, CCF A).
+
+- **Wei Zhao** et al, "APPcache+: An STT-MRAM based Approximate Cache System with Low power and Long Lifetime", which is submitted to Transactions on Compter-Aided Design of Integrated Circuits and Systems (TCAD, CCF A).
+## 2023
+
+- [DATE](){: .btn .btn--primary} Heng Zhou, Bing Wu, Huan Cheng, **Wei Zhao**, Xueliang Wei, Jinpeng Liu, Dan Feng and Wei Tong, "ODLPIM: A Write-Optimized and Long-Lifetime ReRAM-Based Accelerator for Online Deep Learning", in proceedings of 26th Design, Automation and Test in Europe Conference  (**DATE**), 2023. (CCF B) [PDF](){: .btn .btn--info} [Slides](){: .btn .btn--success} [Video](){: .btn .btn--warning} (Acceptance Rate: 25%)
+
 ## 2022
 - [ICCD](){: .btn .btn--primary} Denghui Wu, Biyong Liu, **Wei Zhao**, Wei Tong, "ZNSKV: Reducing Data Migration in LSMT-Based KV Stores on ZNS SSDs" is accepted by 40th IEEE International Conference on Computer Design (**ICCD**), 2022. (CCF B) 
   
@@ -44,5 +52,8 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 | 02/2021 | "Improving the energy efficiency of STT-MRAM based approximate cache", oral presentation in 24th Design, Automation and Test in Europe Conference (DATE 2021). | Virtual event |
 | ------- | :----------------------------------------------------------- | ------------- |
 | 10/2020 | "OSwrite: Improving the lifetime of MLC STT-RAM with One-Step write", oral presentation in 36th International Conference on Massive Storage Systems and Technology (MSST 2020). | Virtual event |
+
+# Academic Services
+The reviewer of International Journal of Information Technology & Decision Making (JCR Q3).
 
 <p style="text-align:center;"><a href='https://clustrmaps.com/site/1bj0x'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=2FbOCO1ajkhXSALUOOOiYdUkX9FjmqD7XGl_fLLO9FA'/></a></p>
