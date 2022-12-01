@@ -13,9 +13,9 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 # Publications
 
 ## In Submission
-- **Wei Zhao** et al, "CMD: A Cache-assisted GPU Memory Deduplication Architecture", which is submitted to 60th Design Automation Conference (DAC, CCF A).
+- **Wei Zhao** et al, "CMD: A Cache-assisted GPU Memory Deduplication Architecture", which is submitted to 60th Design Automation Conference (**DAC**, CCF A).
 
-- **Wei Zhao** et al, "APPcache+: An STT-MRAM based Approximate Cache System with Low power and Long Lifetime", which is submitted to Transactions on Compter-Aided Design of Integrated Circuits and Systems (TCAD, CCF A).
+- **Wei Zhao** et al, "APPcache+: An STT-MRAM based Approximate Cache System with Low power and Long Lifetime", which is submitted to Transactions on Compter-Aided Design of Integrated Circuits and Systems (**TCAD**, CCF A).
 
 ## 2023
 
