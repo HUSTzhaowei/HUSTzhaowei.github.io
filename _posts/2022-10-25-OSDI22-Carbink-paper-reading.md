@@ -69,6 +69,7 @@ Carbink在compute node中存放remotable pointers用来访问远端的object，�
 <center>图 4. 对象智能指针设计<center>
 
 
+
 ### 2.Span-Based Memory Management
 
 图5展示了对不同大小object进行编码的方式，第一种采用填充，会造成大量内存浪费，第二种进行分块，对小object不友好，会有大量的元数据开销。
@@ -87,6 +88,7 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 <center>图 6. Carbink span粒度组织<center>
 
 
+
 ### 3.Fault Tolerance via Erasure Coding
 
 该工作的主要目标就是减少EC系统的尾延迟，优化性能，其选择spanset粒度进行编码，从而以span粒度swap in时，尾延迟低，但是swap in和swap out粒度不匹配，造成较大的far memory消耗，因此，本文后续主要是目的是如何回收far memory中的内存。
@@ -96,15 +98,18 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 <center>图 7. 对两个可以互补的spanset进行合并，并提供了两种模式计算parity，local和remote<center>
 
 
+
 ### 4.Failure Recovery
 
 对于计划failures，memory manager停止对相应memory node的内存的register和allocate。
 
 对于计划外failures，则采用相应的纠删码机制进行恢复，当且仅当错误在纠删码的错误恢复能力之内才可，此外，当M1错误时，计算节点对D1进行恢复，若此时计算节点想读取D1中的object，此时采用降级读机制，计算节点读取D2，D3，D4，P1，恢复D1，之后读取D1。
 
+
 ### 5.Thread Synchronization
 
 一个对象可能被多个进行访问或者修改，如应用线程，filter线程（local memory中object移动），evict线程（驱逐到far memory）。针对多个线程间资源的竞争，通过RCU锁实现线程间同步，同时根据对象的spinlock来获取object访问。
+
 
 ## 测试
 
