@@ -55,6 +55,6 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 | 10/2020 | "OSwrite: Improving the lifetime of MLC STT-RAM with One-Step write", oral presentation in 36th International Conference on Massive Storage Systems and Technology (MSST 2020). | Virtual event |
 
 # Academic Services
-<font size=5>The reviewer of International Journal of Information Technology & Decision Making (JCR Q3).</font>
+The reviewer of International Journal of Information Technology & Decision Making (JCR Q3).
 
 <p style="text-align:center;"><a href='https://clustrmaps.com/site/1bj0x'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=2FbOCO1ajkhXSALUOOOiYdUkX9FjmqD7XGl_fLLO9FA'/></a></p>
