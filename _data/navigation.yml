@@ -3,7 +3,7 @@ main:
     url: /
   - title: "CV"
     url: /cv_en.pdf
-  - title: "Project"
-    url: /categories/
+  # - title: "Project"
+  #   url: /categories/
   - title: "Blog"
     url: /tags/
