@@ -22,7 +22,7 @@ Carbink is a Pokémon that has a high defense score
 
 ![图 1](/figs/image-20221025101821155.png)
 
-<center>图 1. 远端内存架构</center>
+图 1. 远端内存架构
 
 目前访问和管理远端内存主要有下列的方式：（1）修改操作系统抽象层，让操作系统将far memory当成swap设备，在应用层代码上，还是采用标准的c++指针用以访问far memory中的对象；（2）第二种方法则是修改应用代码，提供智能指针用来访问远端内存中的对象，并在本地节点维护远端内存映射关系。第一种方法虽然不需要对应用代码作太大修改，但是修改OS内核代码开发难度较高，且需要适应OS kernel的演化，因此，本文采用方法2，实现针对远端内存对象访问的智能指针，并实现一个全局的内存管理运行时程序memory manager。
 
@@ -44,7 +44,7 @@ Carbink is a Pokémon that has a high defense score
 
 ![image-20221025105659729](/figs/image-20221025105659729.png)
 
-<center>图 2. Hydra纠删码编码方式</center>
+图 2. Hydra纠删码编码方式
 
 Hydra的方式是针对一个page对齐的span，一个span中包含多个object，并且swap in/out的粒度为span。Hydra对一个span进行编码，编码技术需要进行数据分块，并将多个数据块存放在多个memory node，校验数据块存在校验memory node中。（Q：为什么需要存在多个memory node中？A：存在一个node，这个node崩了，没法进行数据恢复）显而易见，采用这种方式，**好处**是编码粒度与swap in/out粒度相同，当一个span无效时，对应的编码的span数据及其校验数据无效，无span碎片。**坏处**就是进行数据重构需要多次请求，一是会带来带宽压力，二是会产生尾延迟，部分请求时间较长，且当所有对应的node数据都读到计算节点时，计算节点才能进行恢复。
 
@@ -58,7 +58,7 @@ Carbink在compute node中存放remotable pointers用来访问远端的object，�
 
 ![image-20221025112656737](/figs/image-20221025112656737.png)
 
-<center>图 3. Carbink总体架构</center>
+图 3. Carbink总体架构
 
 ### 1.Remotable Pointers
 
@@ -66,7 +66,7 @@ Carbink在compute node中存放remotable pointers用来访问远端的object，�
 
 ![image-20221025125235110](/figs/image-20221025125235110.png)
 
-<center>图 4. 对象智能指针设计<center>
+图 4. 对象智能指针设计
 
 
 
@@ -80,12 +80,12 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 
 ![image-20221025130309664](/figs/image-20221025130309664.png)
 
-<center>图 5. 对不规则大小的object进行编码<center>
+图 5. 对不规则大小的object进行编码
 
 
 ![image-20221025131152338](/figs/image-20221025131152338.png)
 
-<center>图 6. Carbink span粒度组织<center>
+图 6. Carbink span粒度组织
 
 
 
@@ -95,7 +95,7 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 
 ![image-20221025133345021](/figs/image-20221025133345021.png)
 
-<center>图 7. 对两个可以互补的spanset进行合并，并提供了两种模式计算parity，local和remote<center>
+图 7. 对两个可以互补的spanset进行合并，并提供了两种模式计算parity，local和remote
 
 
 
