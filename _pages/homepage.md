@@ -13,11 +13,11 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 # Publications
 
 ## In Submission
-- **Wei Zhao** et al, "CMD: A Cache-assisted GPU Memory Deduplication Architecture", which is submitted to 60th Design Automation Conference (**DAC**, CCF A).
+- **Wei Zhao** et al, "CMD: A Cache-assisted GPU Memory Deduplication Architecture".
 
-- **Wei Zhao** et al, "APPcache+: An STT-MRAM based Approximate Cache System with Low power and Long Lifetime", which is submitted to Transactions on Compter-Aided Design of Integrated Circuits and Systems (**TCAD**, CCF A).
 
 ## 2023
+- [TCAD](){: .btn .btn--primary} **Wei Zhao**,  Dan Feng, Wei Tong, Jingning Liu, Zhangyu Chen, Bing Wu, Chengning Wang, "APPcache+: An STT-MRAM based Approximate Cache System with Low Power and Long Lifetime" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2023. (CCF A) [PDF](){: .btn .btn--info}
 
 - [DATE](){: .btn .btn--primary} Heng Zhou, Bing Wu, Huan Cheng, **Wei Zhao**, Xueliang Wei, Jinpeng Liu, Dan Feng and Wei Tong, "ODLPIM: A Write-Optimized and Long-Lifetime ReRAM-Based Accelerator for Online Deep Learning", in proceedings of 26th Design, Automation and Test in Europe Conference  (**DATE**), 2023. (CCF B) [PDF](){: .btn .btn--info} [Slides](){: .btn .btn--success} [Video](){: .btn .btn--warning} (Acceptance Rate: 25%)
 
