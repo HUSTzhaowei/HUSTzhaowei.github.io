@@ -63,15 +63,15 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 <script src="https://giscus.app/client.js"
         data-repo="HUSTzhaowei/HUSTzhaowei.github.io"
         data-repo-id="R_kgDOGeXKTg"
-        data-category="[在此输入分类名]"
-        data-category-id="[在此输入分类 ID]"
+        data-category="General"
+        data-category-id="DIC_kwDOGeXKTs4CWTXU"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
+        data-lang="en"
         crossorigin="anonymous"
         async>
 </script>
