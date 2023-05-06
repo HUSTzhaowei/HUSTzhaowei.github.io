@@ -59,3 +59,19 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 
 **Journal**: International Journal of Information Technology & Decision Making (JCR Q3).
 <p style="text-align:center;"><a href='https://clustrmaps.com/site/1bj0x'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=tt&d=2FbOCO1ajkhXSALUOOOiYdUkX9FjmqD7XGl_fLLO9FA'/></a></p>
+
+<script src="https://giscus.app/client.js"
+        data-repo="HUSTzhaowei/HUSTzhaowei.github.io"
+        data-repo-id="R_kgDOGeXKTg"
+        data-category="[在此输入分类名]"
+        data-category-id="[在此输入分类 ID]"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
