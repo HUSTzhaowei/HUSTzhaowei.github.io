@@ -56,8 +56,9 @@ Carbink对内存节点和计算节点并没有特殊的硬件需求，当数据�
 
 Carbink在compute node中存放remotable pointers用来访问远端的object，其中swap in的粒度为span（size为N*page_size），swap out粒度为spanset（多个span，本文设置为4）。
 
-<!-- ![image-20221025112656737](/figs/image-20221025112656737.png) -->
-<div align=center>![图 3. Carbink总体架构](/figs/image-20221025112656737.png)
+![image-20221025112656737](/figs/image-20221025112656737.png)
+<center>图 3. Carbink总体架构</center>
+<!-- <div align=center>![图 3. Carbink总体架构](/figs/image-20221025112656737.png) -->
 
 
 
