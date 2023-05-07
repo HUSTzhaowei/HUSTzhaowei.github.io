@@ -52,3 +52,18 @@ git rm FILE
 git rm -rf ***
 ```
 
+<script src="https://giscus.app/client.js"
+        data-repo="HUSTzhaowei/HUSTzhaowei.github.io"
+        data-repo-id="R_kgDOGeXKTg"
+        data-category="General"
+        data-category-id="DIC_kwDOGeXKTs4CWTXU"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

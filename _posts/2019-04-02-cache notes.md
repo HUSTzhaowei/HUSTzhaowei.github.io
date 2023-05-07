@@ -98,3 +98,19 @@ Cache 的大小的计算公式为：<a href="https://www.codecogs.com/eqnedit.ph
 **conflict miss**
 * 虽然 Cache 还有很多空间，但在 Working Set 中的 任意两个 Block 可能无法同时存在 Cache 中。发生的原因可能是因为，此 2 个 Block 的 Index 相同。(也就是所谓的 Cache Thrash)
 
+<script src="https://giscus.app/client.js"
+        data-repo="HUSTzhaowei/HUSTzhaowei.github.io"
+        data-repo-id="R_kgDOGeXKTg"
+        data-category="General"
+        data-category-id="DIC_kwDOGeXKTs4CWTXU"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
