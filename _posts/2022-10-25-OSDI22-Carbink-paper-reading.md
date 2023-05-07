@@ -56,9 +56,10 @@ Carbink对内存节点和计算节点并没有特殊的硬件需求，当数据�
 
 Carbink在compute node中存放remotable pointers用来访问远端的object，其中swap in的粒度为span（size为N*page_size），swap out粒度为spanset（多个span，本文设置为4）。
 
-![image-20221025112656737](/figs/image-20221025112656737.png)
+<!-- ![image-20221025112656737](/figs/image-20221025112656737.png) -->
+<div align=center>![图 3. Carbink总体架构](/figs/image-20221025112656737.png)
 
-图 3. Carbink总体架构
+
 
 ### 1.Remotable Pointers
 
@@ -136,4 +137,20 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 ### 缺点
 
 1.问题也很明显，更大粒度的编码，导致了far memory中需要进行空间回收，且提出的compaction操作，虽然能够减少重计算新的spanset的校验数据的网络带宽压力，但是推迟的compaction操作会影响内存回收效率。
+
+<script src="https://giscus.app/client.js"
+        data-repo="HUSTzhaowei/HUSTzhaowei.github.io"
+        data-repo-id="R_kgDOGeXKTg"
+        data-category="General"
+        data-category-id="DIC_kwDOGeXKTs4CWTXU"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
 
