@@ -81,7 +81,7 @@ alias hsplmd='/usr/synopsys/11.9/linux/bin/lmgrd -c /usr/synopsys/L-2016.06-SP1/
  
  出现上图表明也是破解成功，若没有成功，则看下主机名和端口号是否设置正确。
  
- ## 5.跑例子测试
+## 5.跑例子测试
  
  找到安装目录，进行测试，选择bjt文件夹中的mextram_dc.sp，可得如下结果![](/figs/hspice/2018112523235083.png)
  
