@@ -17,14 +17,14 @@ Wei Zhao received the BE degree of electronic science and technology in 2018, fr
 
 
 ## 2023
-- [TCAD](){: .btn .btn--primary} **Wei Zhao**,  Dan Feng, Wei Tong, Jingning Liu, Zhangyu Chen, Bing Wu, Chengning Wang, "APPcache+: An STT-MRAM based Approximate Cache System with Low Power and Long Lifetime" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2023. (CCF A) [PDF](){: .btn .btn--info}
+- [TCAD](){: .btn .btn--primary} **Wei Zhao**,  Dan Feng, Wei Tong, Jingning Liu, Zhangyu Chen, Bing Wu, Chengning Wang, "APPcache+: An STT-MRAM based Approximate Cache System with Low Power and Long Lifetime" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2023. (CCF A) [PDF](https://ieeexplore.ieee.org/abstract/document/10103151){: .btn .btn--info}
 
-- [DATE](){: .btn .btn--primary} Heng Zhou, Bing Wu, Huan Cheng, **Wei Zhao**, Xueliang Wei, Jinpeng Liu, Dan Feng and Wei Tong, "ODLPIM: A Write-Optimized and Long-Lifetime ReRAM-Based Accelerator for Online Deep Learning", in proceedings of 26th Design, Automation and Test in Europe Conference  (**DATE**), 2023. (CCF B) [PDF](){: .btn .btn--info} [Slides](){: .btn .btn--success} [Video](){: .btn .btn--warning} (Acceptance Rate: 25%)
+- [DATE](){: .btn .btn--primary} Heng Zhou, Bing Wu, Huan Cheng, **Wei Zhao**, Xueliang Wei, Jinpeng Liu, Dan Feng and Wei Tong, "ODLPIM: A Write-Optimized and Long-Lifetime ReRAM-Based Accelerator for Online Deep Learning", in proceedings of 26th Design, Automation and Test in Europe Conference  (**DATE**), 2023. (CCF B) [PDF](){: .btn .btn--info} (Acceptance Rate: 25%)
 
 ## 2022
-- [ICCD](){: .btn .btn--primary} Denghui Wu, Biyong Liu, **Wei Zhao**, Wei Tong, "ZNSKV: Reducing Data Migration in LSMT-Based KV Stores on ZNS SSDs" is accepted by 40th IEEE International Conference on Computer Design (**ICCD**), 2022. (CCF B) 
+- [ICCD](){: .btn .btn--primary} Denghui Wu, Biyong Liu, **Wei Zhao**, Wei Tong, "ZNSKV: Reducing Data Migration in LSMT-Based KV Stores on ZNS SSDs" is accepted by 40th IEEE International Conference on Computer Design (**ICCD**), 2022. (CCF B) [PDF](https://ieeexplore.ieee.org/abstract/document/9978499){: .btn .btn--info}
   
-- [TCAD](){: .btn .btn--primary} **Wei Zhao**, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Wei Tong, Dan Feng, Jingning Liu, "A Low Latency and High Endurance MLC STT-MRAM based Cache System" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2022. (CCF A) [PDF](){: .btn .btn--info} 
+- [TCAD](){: .btn .btn--primary} **Wei Zhao**, Jie Xu, Xueliang Wei, Bing Wu, Chengning Wang, Weilin Zhu, Wei Tong, Dan Feng, Jingning Liu, "A Low Latency and High Endurance MLC STT-MRAM based Cache System" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2022. (CCF A) [PDF](https://ieeexplore.ieee.org/abstract/document/9761996/){: .btn .btn--info} 
 
 ## 2021
 
