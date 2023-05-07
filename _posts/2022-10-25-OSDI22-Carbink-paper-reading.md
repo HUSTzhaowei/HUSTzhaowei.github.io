@@ -21,8 +21,7 @@ Carbink is a Pokémon that has a high defense score
 内存密集应用对内存的需求越来越高，但是物理内存的扩展受到限制。Google和Alibaba的测试报告指出，数据中心服务器平均的内存使用率为60%，因此，数据中心中有大量的闲置内存。因此，目前采用高速网络，访问远端内存。
 
 ![图 1](/figs/image-20221025101821155.png)
-
-图 1. 远端内存架构
+<center>图 1. 远端内存架构</center>
 
 目前访问和管理远端内存主要有下列的方式：（1）修改操作系统抽象层，让操作系统将far memory当成swap设备，在应用层代码上，还是采用标准的c++指针用以访问far memory中的对象；（2）第二种方法则是修改应用代码，提供智能指针用来访问远端内存中的对象，并在本地节点维护远端内存映射关系。第一种方法虽然不需要对应用代码作太大修改，但是修改OS内核代码开发难度较高，且需要适应OS kernel的演化，因此，本文采用方法2，实现针对远端内存对象访问的智能指针，并实现一个全局的内存管理运行时程序memory manager。
 
@@ -43,8 +42,7 @@ Carbink is a Pokémon that has a high defense score
 为了解决内存错误问题，目前主流的方式为副本技术和纠删码技术。常见的三副本技术保留了数据的三个副本，因此导致3X容量开销。纠删码技术则是一种低容量开销的容错技术，如RS（4,2）码容量开销为1.5X，单核可实现4GB/s的编码带宽。因此，从容量开销角度考虑，目前主要采用纠删码方案，当然，针对某些应用场景，副本+纠删码一起结合使用。
 
 ![image-20221025105659729](/figs/image-20221025105659729.png)
-
-图 2. Hydra纠删码编码方式
+<center>图 2. Hydra纠删码编码方式</center>
 
 Hydra的方式是针对一个page对齐的span，一个span中包含多个object，并且swap in/out的粒度为span。Hydra对一个span进行编码，编码技术需要进行数据分块，并将多个数据块存放在多个memory node，校验数据块存在校验memory node中。（Q：为什么需要存在多个memory node中？A：存在一个node，这个node崩了，没法进行数据恢复）显而易见，采用这种方式，**好处**是编码粒度与swap in/out粒度相同，当一个span无效时，对应的编码的span数据及其校验数据无效，无span碎片。**坏处**就是进行数据重构需要多次请求，一是会带来带宽压力，二是会产生尾延迟，部分请求时间较长，且当所有对应的node数据都读到计算节点时，计算节点才能进行恢复。
 
@@ -67,8 +65,7 @@ Carbink在compute node中存放remotable pointers用来访问远端的object，�
 对c++中的只能指针进行重新编码。Carbin对c++中的unique_ptr和shared_ptr进行扩展，得到RemUnique_ptr和RemShared_ptr。当一个对象被移动或者从local 中驱逐，为了对指针进行更新，每个object有一个reverse pointer，指向对应的指针并对其进行更新。RemUnique_Ptr表示对一个对象的引用，RemShared_Ptr表示一个对象被多个指针引用，为了更新多个RemShared_Ptr，采用链表方式维护RemShared_Ptr。
 
 ![image-20221025125235110](/figs/image-20221025125235110.png)
-
-图 4. 对象智能指针设计
+<center>图 4. 对象智能指针设计</center>
 
 
 
@@ -81,13 +78,11 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 此外，local memory中，对cold objects和dead objects进行组织，将这些objects重组织为span，并且多个span组成一个spanset，按照spanset粒度swap out。
 
 ![image-20221025130309664](/figs/image-20221025130309664.png)
-
-图 5. 对不规则大小的object进行编码
+<center>图 5. 对不规则大小的object进行编码</center>
 
 
 ![image-20221025131152338](/figs/image-20221025131152338.png)
-
-图 6. Carbink span粒度组织
+<center>图 6. Carbink span粒度组织</center>
 
 
 
@@ -96,8 +91,7 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 该工作的主要目标就是减少EC系统的尾延迟，优化性能，其选择spanset粒度进行编码，从而以span粒度swap in时，尾延迟低，但是swap in和swap out粒度不匹配，造成较大的far memory消耗，因此，本文后续主要是目的是如何回收far memory中的内存。
 
 ![image-20221025133345021](/figs/image-20221025133345021.png)
-
-图 7. 对两个可以互补的spanset进行合并，并提供了两种模式计算parity，local和remote
+<center>图 7. 对两个可以互补的spanset进行合并，并提供了两种模式计算parity，local和remote</center>
 
 
 
@@ -117,12 +111,10 @@ Carbink采用span粒度对数据进行管理。span是page-aligned，其将大�
 
 测试采用了8台机器，放置于一个机架中，其中包含一个计算节点，7个内存节点，针对于RD(4，2)编码，4个数据节点，2个校验数据节点，一个memory node用以存储恢复的数据。
 
-带宽测试（kv store）
-
+<center>带宽测试（kv store）</center>
 ![image-20221025135506139](/figs/image-20221025135506139.png)
 
-尾延迟测试（microbenchmark）
-
+<center>尾延迟测试（microbenchmark）</center>
 ![image-20221025135530887](/figs/image-20221025135530887.png)
 
 ## 评价&思考
