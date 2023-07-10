@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Alibaba Cloud engineer"
+  name   : "Better Mr.Zhao"
   avatar : "/assets/images/me.jpg"
   bio    : "Hi, I'm Wei Zhao, an engineer in cloud and storage."
   email  : "1996hustzw@gmail.com"
