@@ -17,9 +17,9 @@ url: "https://thiszw.top/homepage"
 #baseurl: "/homepage"
 
 title: Wei Zhao
-email: weiz@hust.edu.cn
+email: 1996hustzw@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I'm Wei Zhao, a Ph.D student in Huazhong University of Science and Technology (HUST), Wuhan, China.
+  Hi, I'm Wei Zhao, an engineer in cloud and storage.
 
 #twitter_username: username
 #github_username: username
@@ -60,11 +60,12 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "CS Ph.D student"
+  name   : "Alibaba Cloud engineer"
   avatar : "/assets/images/me.jpg"
-  bio    : "Hi, I'm Wei Zhao, a Ph.D student in Huazhong University of Science and Technology (HUST), Wuhan, China. Email: weiz@hust.edu.cn"
-  email  : "weiz@hust.edu.cn"
-  location: "Wuhan, China"
+  bio    : "Hi, I'm Wei Zhao, an engineer in cloud and storage."
+  email  : "1996hustzw@gmail.com"
+  zhihu  : "https://www.zhihu.com/people/jiu-zhe-yang-ba-49"
+  # location: "Wuhan, China"
   googlescholar: "https://scholar.google.com/citations?user=fwaVuhEAAAAJ&hl"
   links:
           #- label: "Zhihu"
