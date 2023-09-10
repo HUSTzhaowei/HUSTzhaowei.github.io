@@ -8,12 +8,14 @@ author_profile: ture
 
 # Biography
 
-Wei Zhao received the Ph.D and BE degree from Huazhong University of Science and Technology (HUST) in 2023, 2018, respectively. In the Ph.D. career, I'm a member of [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage. My CV is [here](../cv_en.pdf).
+Wei Zhao received the Ph.D and BE degree from Huazhong University of Science and Technology (HUST) in 2023, 2018, respectively. In my Ph.D. career, I'm a member of [SSS&SDS Group](https://ssssds.github.io) (supervised by: [Dan Feng](http://faculty.hust.edu.cn/dfeng/zh_CN/index.htm), [Wei Tong](http://faculty.hust.edu.cn/tongwei/zh_CN/index.htm)). The main research interests include Non-volatile Memory (NVM), processing in memory architecture and approximate computing/storage. My CV is [here](../cv_en.pdf) [中文简历](../cv_cn.pdf).
 
 # Publications
 
 
 ## 2023
+- [TACO](){: .btn .btn--primary} Dong Huang, Dan Feng, Qiankun Liu, Bo Ding, **Wei Zhao**, Xueliang Wei, Wei Tong. "SplitZNS: Towards an Efficient LSM-Tree on Zoned Namespace SSDs" is accepted by ACM Transactions on Architecture and Code Optimization (**TACO**), 2023. (CCF A)
+
 - [TCAD](){: .btn .btn--primary} **Wei Zhao**,  Dan Feng, Wei Tong, Jingning Liu, Zhangyu Chen, Bing Wu, Chengning Wang, "APPcache+: An STT-MRAM based Approximate Cache System with Low Power and Long Lifetime" is accepted by Transactions on Computer-Aided Design of Integrated Circuits and Systems (**TCAD**), 2023. (CCF A) [PDF](https://ieeexplore.ieee.org/abstract/document/10103151){: .btn .btn--info}
 
 - [DATE](){: .btn .btn--primary} Heng Zhou, Bing Wu, Huan Cheng, **Wei Zhao**, Xueliang Wei, Jinpeng Liu, Dan Feng and Wei Tong, "ODLPIM: A Write-Optimized and Long-Lifetime ReRAM-Based Accelerator for Online Deep Learning", in proceedings of 26th Design, Automation and Test in Europe Conference  (**DATE**), 2023. (CCF B) [PDF](){: .btn .btn--info} (Acceptance Rate: 25%)
